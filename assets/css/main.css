@@ -246,8 +246,21 @@ input, select, textarea {
 /* Slide */
 
 .slider::-webkit-scrollbar {
-  display: none;
+	height: 10px;
 }
+
+.slider::-webkit-scrollbar-track {
+	background: #fff;
+	border-left: solid 1px #ececec;
+	border-radius: 10px;
+}
+
+.slider::-webkit-scrollbar-thumb{
+	background: #ccc;
+	border-radius: 10px;
+　　box-shadow: inset 0 0 0 2px #fff;
+}
+
 
 .slide {
 	width: 25%;
@@ -2815,6 +2828,9 @@ input, select, textarea {
 			}
 
 		/* Slider */
+			.row.slider {
+				margin-left: 20px;
+			}
 						
 			.slider {
 				flex-wrap: nowrap;

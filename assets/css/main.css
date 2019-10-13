@@ -2090,6 +2090,16 @@ input, select, textarea {
 				box-shadow: inset 0 0 0 1px #fff;
 			}
 
+/* Slide */
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+	width: 25%;
+}
+
 /* Feature Icon */
 
 	.feature-icon {
@@ -2101,7 +2111,7 @@ input, select, textarea {
 	}
 
 		.feature-icon .icon {
-			display: inline-block;
+			display: block;
 			width: 2em;
 			height: 2em;
 			font-size: 4.5em;
@@ -2782,7 +2792,7 @@ input, select, textarea {
 			}
 
 			.slide {
-				flex: 0 0 40%;
+				flex: 0 0 45%;
 			}
 	}
 
@@ -2797,10 +2807,3 @@ input, select, textarea {
 		}
 	}
 
-.slider::-webkit-scrollbar {
-  display: none;
-}
-
-.slide {
-	width: 25%;
-}

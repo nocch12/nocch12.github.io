@@ -2532,13 +2532,14 @@ input, select, textarea {
 
 			#to_top {
 				position: fixed;
-				right: 3em;
-				bottom: 3em;
+				right: 2em;
+				bottom: 2em;
 				width: 3em;
 				height: 3em;
 				background: #F8F8F8;
 				display: none;
 				padding-top: 3px;
+				opacity: 0.6;
 			}
 
 			#to_top:hover {
@@ -2576,7 +2577,7 @@ input, select, textarea {
 }
 @media screen and (max-width: 1000px) {
 	.work-text-wrap {
-	text-align-last: center;
+	text-align-last: left;
 }
 }
 
@@ -2811,7 +2812,6 @@ input, select, textarea {
 			#to_top {
 				bottom: 0.5rem;
 				right: 0.5rem;
-				opacity: 0.5;
 			}
 
 		/* Slider */

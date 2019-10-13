@@ -2762,6 +2762,13 @@ input, select, textarea {
 				.main > .content h3 {
 					font-size: 1.25em;
 				}
+			
+		/* Footer */
+			#to_top {
+				bottom: 0.5rem;
+				right: 0.5rem;
+				opacity: 0.5;
+			}
 
 	}
 

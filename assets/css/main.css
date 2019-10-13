@@ -2791,6 +2791,7 @@ input, select, textarea {
 				overflow-scrolling: touch;
 				overflow-y: hidden;
 				overflow-x: scroll;
+				width: 100%;
 			}
 
 			.slide {

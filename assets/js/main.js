@@ -85,8 +85,6 @@ new LuminousGallery(luminousTrigger, {}, options);  //LuminousGalleryで第二�
 
 
 $(function () {
-	$('.fade-in').hide();
-
 	$(window).on('load', function () {
 		$('.fade-in').each(function (i) {
 			$(this).delay(1000 * i).fadeIn(2000);

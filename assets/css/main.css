@@ -2810,3 +2810,6 @@ input, select, textarea {
 		}
 	}
 
+.fade-in {
+	display: none;
+}

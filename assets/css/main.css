@@ -2609,6 +2609,7 @@ input, select, textarea {
 			}
 
 			.main > .content {
+			.main > .content {
 				padding: 4em 0 4em 0;
 			}
 
@@ -2770,6 +2771,19 @@ input, select, textarea {
 				opacity: 0.5;
 			}
 
+		/* Slider */
+						
+			.slider {
+				flex-wrap: nowrap;
+				-webkit-overflow-scrolling: touch;
+				overflow-scrolling: touch;
+				overflow-y: hidden;
+				overflow-x: scroll;
+			}
+
+			.slide {
+				flex: 0 0 30%;
+			}
 	}
 
 	@media screen and (max-width:600px) {
@@ -2782,3 +2796,11 @@ input, select, textarea {
 			left: 40%;
 		}
 	}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+	width: 25%;
+}

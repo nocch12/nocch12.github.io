@@ -89,5 +89,7 @@ $(function () {
 		$('.fade-in').each(function (i) {
 			$(this).delay(1000 * i).fadeIn(2000);
 		});
+
+		return false;
 	});
 });

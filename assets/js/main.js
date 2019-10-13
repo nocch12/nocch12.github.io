@@ -22,10 +22,6 @@ $(function ($) {
 		window.setTimeout(function () {
 			$body.removeClass('is-preload');
 		}, 100);
-
-		$('.fade-in').each(function (i) {
-			$(this).delay(1000 * i).fadeIn(2000);
-		});
 	});
 
 	// Scrolly.
@@ -86,3 +82,14 @@ var options = {
 }
 var luminousTrigger = document.querySelectorAll('.luminous');
 new LuminousGallery(luminousTrigger, {}, options);  //LuminousGalleryで第二引数galleryOptsを特に指定しない場合は {} でOK
+
+
+$(function () {
+	$(window).on('load', function () {
+		$('.fade-in').each(function (i) {
+			$(this).delay(1000 * i).fadeIn(2000);
+		});
+
+		return false;
+	});
+});

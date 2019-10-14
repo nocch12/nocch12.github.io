@@ -31,7 +31,7 @@ $(function ($) {
 	$('.menu').on('click', function () {
 		$(this).toggleClass('active-line');
 		$('.menu__line').toggleClass('active');
-		$('.gnav').fadeToggle();
+		$('.sp-nav').fadeToggle();
 	});
 
 

@@ -2197,7 +2197,7 @@ input, select, textarea {
 
 
 /* gnav */
-.menu {
+.menu, .sp-nav {
 	display: none;
 }
 
@@ -2210,9 +2210,10 @@ input, select, textarea {
 .gnav__menu {
 	list-style-type: none;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	padding: 1.75em;
 	margin: 0;
+	height: 100vh;
 }
 
 .gnav__menu__item {

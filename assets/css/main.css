@@ -2216,6 +2216,10 @@ input, select, textarea {
 	height: 100vh;
 }
 
+.pc-nav .gnav__menu {
+	justify-content: flex-end;
+}
+
 .gnav__menu__item {
 	padding: 0 0.5em;
 }
@@ -2297,7 +2301,7 @@ input, select, textarea {
 		transform: rotate(135deg);
 	}
 
-	.gnav{
+	.sp-nav.gnav{
     background: rgba(0,0,0,0.8);
     display: none;
     height: 100vh;
@@ -2305,23 +2309,15 @@ input, select, textarea {
     width: 100%;
     z-index: 98;
 }
-.gnav__wrap{
-    align-items:center;
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-}
 
-.gnav__menu {
+.sp-nav .gnav__menu {
 	display: flex;
 	flex-direction: column;
 }
-.gnav__menu__item{
+.sp-nav .gnav__menu__item{
     margin: 2em 0;
 }
-.gnav__menu__item a{
+.sp-nav .gnav__menu__item a{
     color: #fff;
     font-size: 1.5em;
     font-weight: bold;
@@ -2330,7 +2326,7 @@ input, select, textarea {
 	border:  none;
     transition: .5s;
 }
-.gnav__menu__item a:hover{
+.sp-nav .gnav__menu__item a:hover{
     color: #666;
 }
 
